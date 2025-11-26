@@ -1,0 +1,31 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"        # path to package.json
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+    automerged_updates: false
+
+  - package-ecosystem: "composer"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+    automerged_updates: false
+
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+    automerged_updates: false
+
+# optional: reviewers or assignees can be added if you want PRs to request review
+#  - package-ecosystem: "npm"
+#    directory: "/"
+#    schedule:
+#      interval: "daily"
+#    reviewers:
+#      - "your-github-username"
+
