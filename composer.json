@@ -1,0 +1,9 @@
+{
+  "name": "aplikasi/antrian",
+  "description": "Aplikasi antrian",
+  "require": {
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "minimum-stability": "stable",
+  "license": "MIT"
+}
